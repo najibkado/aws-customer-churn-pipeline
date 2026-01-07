@@ -21,7 +21,7 @@ Parameters:
 
     pRepositoryName:
       Type: String
-      Default: "awslabs/aws-customer-churn-pipeline"
+      Default: "najibkado/aws-customer-churn-pipeline"
 
     pBuildImageName:
       Description: Instance type

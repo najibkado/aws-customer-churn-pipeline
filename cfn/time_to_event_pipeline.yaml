@@ -929,7 +929,7 @@ Resources:
     Type: AWS::Lambda::Function
     Properties:
       FunctionName: "getSageMakerModelUrl"
-      Runtime: python3.6
+      Runtime: python3.11
       Timeout: 900
       MemorySize: 128
       Role: !GetAtt LambdaIAMRole.Arn
@@ -961,7 +961,7 @@ Resources:
     Type: AWS::Lambda::Function
     Properties:
       FunctionName: "getSMTuningStepBestHyperParameters"
-      Runtime: python3.6
+      Runtime: python3.11
       Timeout: 900
       MemorySize: 128
       Role: !GetAtt LambdaIAMRole.Arn
@@ -1021,7 +1021,7 @@ Resources:
     Type: AWS::Lambda::Function
     Properties:
       FunctionName: "invokeTrainingStepFunction"
-      Runtime: python3.6
+      Runtime: python3.11
       Timeout: 900
       MemorySize: 128
       Role: !GetAtt LambdaIAMRole.Arn
@@ -1092,7 +1092,7 @@ Resources:
     Type: AWS::Lambda::Function
     Properties:
       FunctionName: "invokeInferStepFunction"
-      Runtime: python3.6
+      Runtime: python3.11
       Timeout: 900
       MemorySize: 128
       Role: !GetAtt LambdaIAMRole.Arn
